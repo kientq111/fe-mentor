@@ -1,0 +1,116 @@
+body {
+  background: var(--dark-blue, #1f2632);
+  height: 810px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 300px;
+  padding: 20px 48px 50px 48px;
+  border-radius: 15px;
+  background: var(--dark-grayish-blue, #323a49);
+}
+
+.card-content {
+  width: 444px;
+  height: 200px;
+}
+
+.text-id {
+  color: var(--neon-green, #52ffa8);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+.text-content {
+  color: var(--light-cyan, #cee3e9);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+
+.text-container {
+  min-height: 150px;
+}
+
+.divide-container {
+  margin-top: 20px;
+  width: 444px;
+  height: 16px;
+}
+
+.dice-container {
+  position: absolute;
+  margin-top: 400px;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: solid 1px var(--neon-green, #52ffa8);
+  background: var(--neon-green, #52ffa8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dice-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    width: 342px;
+    height: 315px;
+    padding: 39px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .card-content {
+    width: 302.652px;
+    height: 209.515px;
+    flex-shrink: 0;
+  }
+
+  body {
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divide-container {
+    width: 295px;
+    height: 15.758px;
+    flex-shrink: 0;
+  }
+
+  .dice-container {
+    margin-top: 390px;
+  }
+
+  #divided {
+    content: url("./images/pattern-divider-mobile.svg");
+  }
+}

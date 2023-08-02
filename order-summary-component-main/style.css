@@ -1,0 +1,136 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  width: 1440px;
+  height: 870px;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 450px;
+  height: 700px;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 50px;
+  font-family: "Red Hat Display";
+  font-weight: 500px;
+  color: hsl(223, 47%, 23%);
+}
+
+.content {
+  margin-top: 5px;
+  font-family: "Red Hat Display";
+  font-weight: 500px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-container {
+  width: 310px;
+  height: 80px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0px 20px;
+}
+
+.plan-text-container {
+  margin-left: 15px;
+}
+
+.plan-title {
+  font-family: "Red Hat Display";
+  font-weight: bold;
+  color: hsl(223, 47%, 23%);
+}
+
+.price {
+  font-family: "Red Hat Display";
+  font-weight: 500px;
+  color: hsl(224, 23%, 55%);
+}
+
+.change-price-text {
+  margin-left: 90px;
+  font-family: "Red Hat Display";
+
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.primary-button {
+  margin-top: 30px;
+  width: 350px;
+  background-color: hsl(245, 75%, 52%);
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  color: white;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  box-shadow: hsl(245, 75%, 75%) 0px 10px 30px -12px;
+}
+.secondary-button {
+  margin-top: 20px;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  font-family: "Red Hat Display";
+  font-weight: bold;
+}
+
+.change-price-text:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 62%);
+}
+
+.primary-button:hover {
+  background-color: hsl(245, 75%, 62%);
+}
+
+.secondary-button:hover {
+  color: hsl(224, 23%, 25%);
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 370px;
+  }
+  .img {
+    width: 370px;
+  }
+}

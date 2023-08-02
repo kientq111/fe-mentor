@@ -70,6 +70,10 @@ body {
   cursor: pointer;
 }
 
+.dice-container:hover {
+  box-shadow: 0 0 50px #52ffa8;
+}
+
 .dice-icon {
   width: 24px;
   height: 24px;

@@ -120,6 +120,7 @@ button {
 
 .primary-button:hover {
   background-color: hsl(245, 75%, 62%);
+  transform: translateY(-5px);
 }
 
 .secondary-button:hover {

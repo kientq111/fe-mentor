@@ -100,6 +100,7 @@ button {
   font-family: "Red Hat Display";
   font-weight: 600;
   box-shadow: hsl(245, 75%, 75%) 0px 10px 30px -12px;
+  transition: all 500ms;
 }
 .secondary-button {
   margin-top: 20px;
